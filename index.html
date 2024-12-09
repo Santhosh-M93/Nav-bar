@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Tech Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            background-color: blue;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            color: white;
+        }
+        img {
+            width: 150px;
+            height: auto;
+            margin-left:100px;
+        }
+        ul {
+            display: flex;
+            list-style: none;
+            flex-grow: 1;
+            justify-content: center;
+        }
+        ul li {
+            margin: 0 10px;
+        }
+        ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            transition: color 0.3s ease;
+        }
+        ul li a:hover {
+            color: yellow;
+        }
+        .contact-info {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="logo-official.jpg" alt="Logo">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Enquiry</a></li>
+            <li><a href="#">Register</a></li>
+        </ul>
+        <div class="contact-info">
+            Have any questions?
+        </div>
+    </nav>
+</body>
+</html>
